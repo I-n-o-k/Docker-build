@@ -36,7 +36,7 @@ jobs:
           file: ./Dockerfile
           run: echo ${{ secrets.RCLONE }} > ~/.config/rclone/rclone.conf
           push: true
-          tags: walkingdead666/anu:latest
+          tags: walkingdead666/gcc:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
