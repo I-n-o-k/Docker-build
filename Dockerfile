@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:jammy
 
 LABEL maintainer="I-n-o-k <inok.dr189@gmail.com>"
 
