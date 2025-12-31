@@ -38,10 +38,10 @@ RUN apt-get update -q -y \
     # XML libraries and stuff
     libxml2 libxml2-utils xsltproc expat re2c \
     # Developer's Libraries for ncurses
-    ncurses-bin libncurses5-dev lib32ncurses5-dev bc libreadline-gplv2-dev libsdl1.2-dev libtinfo5 python-is-python2 ninja-build libcrypt-dev\
+    ncurses-bin libncurses5-dev lib32ncurses5-dev bc libsdl1.2-dev libtinfo5 python-is-python3 ninja-build libcrypt-dev\
     # Misc utils
     file gawk xterm screen rename tree schedtool software-properties-common \
-    dos2unix jq flex bison gperf exfat-utils exfat-fuse libb2-dev pngcrush imagemagick optipng advancecomp \
+    dos2unix jq flex bison gperf exfat-fuse libb2-dev pngcrush imagemagick optipng advancecomp \
     # LTS specific Unique packages
     ${UNIQ_PACKAGES} \
     # Additional
